@@ -1,0 +1,19 @@
+server:
+  port: 5020
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/test
+    username: postgres
+    password: postgres
+#    driver-class-name:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
+javatar:
+  app:
+    jwtSecret: ======================Javatar=Spring===========================
+    jwtExpirationMs: 86400000
