@@ -11,6 +11,7 @@ import com.javatar.jwtservice.dto.response.JwtReesponse;
 import com.javatar.jwtservice.dto.response.MessageResponse;
 import com.javatar.jwtservice.repository.RoleRepository;
 import com.javatar.jwtservice.repository.UserRepository;
+import com.javatar.jwtservice.security.JwtUtils;
 import com.javatar.jwtservice.service.UserDetailsImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -28,9 +29,6 @@ import org.springframework.web.bind.annotation.RestController;
 import com.javatar.jwtservice.model.ERole;
 import com.javatar.jwtservice.model.Role;
 import com.javatar.jwtservice.model.User;
-import com.javatar.jwtservice.dto.*;
-import com.javatar.jwtservice.repository.*;
-import com.javatar.jwtservice.security.*;
 
 
 @CrossOrigin(origins = "*", maxAge = 3600)

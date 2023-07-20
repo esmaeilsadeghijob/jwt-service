@@ -2,7 +2,7 @@ package com.javatar.jwtservice.model;
 
 import lombok.Data;
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 
 @Data
 @Entity
